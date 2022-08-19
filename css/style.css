@@ -667,21 +667,6 @@ input[class^='btn-']:hover {
     grid-template-columns: 1fr;
   }
 
-  /* =========== Footer starts from here =========== */
-  #main_footer {
-    height: 7rem;
-    margin-top: 100px;
-    margin-bottom: 0px;
-  }
-  .footer-content {
-    flex-direction: column;
-    padding: 1rem;
-    height: 5rem;
-  }
-  .footer-content .social {
-    padding-top: 12px;
-  }
-
   /*=========== skills section starts here =========== */
 
   .section__title {
@@ -734,5 +719,27 @@ input[class^='btn-']:hover {
   .skills__percentage {
     height: 6px;
     border-radius: 0.25rem;
+  }
+
+  /* ==== Projects section starts from here */
+  .item-text-title {
+    font-size: 1rem;
+    padding: 0 1rem;
+    margin: 5px 0 0 0;
+  }
+
+  /* =========== Footer starts from here =========== */
+  #main_footer {
+    height: 7rem;
+    margin-top: 100px;
+    margin-bottom: 0px;
+  }
+  .footer-content {
+    flex-direction: column;
+    padding: 1rem;
+    height: 5rem;
+  }
+  .footer-content .social {
+    padding-top: 12px;
   }
 }
