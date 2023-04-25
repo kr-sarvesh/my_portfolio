@@ -324,7 +324,10 @@ input[class^='btn-']:hover {
 #main-footer {
   background: #333;
   color: #fff;
-  height: 5rem;
+  height: 6rem;
+
+  align-items: center;
+  align-content: center;
 }
 #main-footer .footer-content {
   display: flex;
@@ -521,8 +524,10 @@ input[class^='btn-']:hover {
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5rem;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
-  gap: 0.3rem;
+  transition: all 0.3s ease-in-out;
+  align-content: space-evenly;
 }
 
 .item {
