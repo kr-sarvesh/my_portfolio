@@ -768,14 +768,14 @@ input[class^='btn-']:hover {
   #main-footer {
     height: 70px;
     margin-top: 10px;
-    margin-bottom: 0px;
   }
   .footer-content {
     flex-direction: column;
-    padding: 1rem;
-    height: 5rem;
+    padding: 0rem;
+    height: 8rem;
   }
   .footer-content .social {
     padding-top: 12px;
+    padding-bottom: 12px;
   }
 }
